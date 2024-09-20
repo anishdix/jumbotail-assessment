@@ -1,0 +1,30 @@
+{
+    "TRANSPORT_MODES": {
+      "500-inf": "Aeroplane",
+      "100-500": "Truck",
+      "0-100": "Mini Van"
+    },
+
+
+    
+    "TRANSPORT_RATES": {
+      "Aeroplane": 1,
+      "Truck": 2,
+      "Mini Van": 3
+    },
+
+
+    "PRODUCTS": {
+              "Noodles": { "weight": 0.5, "dimension": "10x10x10" },
+      "Rice Bag": { "weight": 10, "dimension": "1000x800x500" },
+        "Sugar Bag": { "weight": 25, "dimension": "1000x900x600" }
+    },
+    "WAREHOUSES": {
+         "BLR_Warehouse": { "lat": 12.99999, "long": 37.923273 },
+    "MUMB_Warehouse": { "lat": 11.99999, "long": 27.923273 }
+    },
+    "CUSTOMERS": {
+       "Cust-123": { "name": "Shree Kirana Store", "lat": 11.232, "long": 23.445495 },
+    "Cust-124": { "name": "Andheri Mini Mart", "lat": 17.232, "long": 33.445495 }
+    }
+  }
